@@ -32,4 +32,4 @@ This is not the best solutions, but for this experiments...can be
 
 ![ScreenShot](https://raw.githubusercontent.com/Wiz-IO/TizenRT-PIC32/master/TizenRT_PIC32MZ.png)
 
-
+NOW: can blink leds and write text to console...
