@@ -1,0 +1,28 @@
+__ASSEMBLY__
+to
+__LANGUAGE_ASSEMBLY__
+
+
+
+<nuttx/
+to
+<tinyara/
+
+
+
+
+<arch/chip/                         irq.h>
+<arch/mips/include/pic32mz/         irq.h>
+
+
+
+<arch/mips32/                       irq.h>
+<arch/mips/include/mips32/          irq.h>
+
+
+<arch/pic32mz/chip.h>
+
+
+
+
+<arch/pic32mz/irq_pic32mzxxxef.h>
