@@ -21,7 +21,7 @@ http://www.microchip.com/Developmenttools/ProductDetails/DM320104?utm_source=Mic
 Problems:
 * Windows MPLAB-X is dependent on cmd.exe, that has a 32k limit and can not compile the source.
 * Linker script, now project can be beduged with simulator or/and board ICD
-* pic32mz port... irq, Tizen/Nuttx use single mode interrupts
+* pic32mz port... irq, Tizen/Nuttx use single mode interrupts...
 
 Workaround: 
 * cmd.exe: I merge some files (functions from libc folder) by folders with simple BAT file
