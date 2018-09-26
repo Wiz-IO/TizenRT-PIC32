@@ -16,7 +16,11 @@ http://www.microchip.com/Developmenttools/ProductDetails/DM320104?utm_source=Mic
 Problems:
 
 Windows MPLAB-X is dependent on cmd.exe, that has a 32k limit and can not compile the source.
+
 Workaround: I merge some files (functions from libc folder) by folders with simple BAT file
+
 copy *.c output.c
+
 This is not the best solutions, but for this experiments...can be
+
 
