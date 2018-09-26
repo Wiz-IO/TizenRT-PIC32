@@ -7,17 +7,23 @@ TizenRT is lightweight RTOS-based platform to support low-end IoT devices.
 
 https://github.com/Samsung/TizenRT
 
-Compiler: Windows MPLAB-X, XC32 (last version)
+TizenRT based on the NuttX kernel and is a POSIX real-time operating system (RTOS) with an emphasis on standard compliance and a small footprint.
 
-Board: Curiosity PIC32MZEF 
+
+Compiler: 
+* Windows MPLAB-X, XC32 (last version)
+
+
+Board: 
+* Curiosity PIC32MZEF 
 
 http://www.microchip.com/Developmenttools/ProductDetails/DM320104?utm_source=MicroSolutions&utm_medium=Link&utm_term=FY19Q1&utm_content=Development%2BTools&utm_campaign=Article
 
 Problems:
+* Windows MPLAB-X is dependent on cmd.exe, that has a 32k limit and can not compile the source.
 
-Windows MPLAB-X is dependent on cmd.exe, that has a 32k limit and can not compile the source.
-
-Workaround: I merge some files (functions from libc folder) by folders with simple BAT file
+Workaround: 
+* I merge some files (functions from libc folder) by folders with simple BAT file
 
 copy *.c output.c
 
